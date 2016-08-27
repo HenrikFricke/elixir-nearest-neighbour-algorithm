@@ -3,12 +3,13 @@ defmodule NearestNeighbourAlgorithm.Mixfile do
 
   def project do
     [app: :nearest_neighbour_algorithm,
-     version: "0.1.0",
+     version: "1.0.0",
      elixir: "~> 1.3",
      package: package,
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
-     deps: deps]
+     deps: deps,
+     docs: docs]
   end
 
   # Configuration for the OTP application
@@ -18,12 +19,20 @@ defmodule NearestNeighbourAlgorithm.Mixfile do
     [applications: [:logger]]
   end
 
+  defp docs do
+    [
+      extras: ["README.md"],
+      main: "readme",
+      source_url: "https://github.com/HenrikFricke/elixir-nearest-neighbour-algorithm"
+    ]
+  end
+
   defp deps do
     [
       {:ex_doc, "~> 0.11", only: :dev}
     ]
   end
-  
+
   defp package do
     [
       maintainers: ["Henrik Fricke <henrikfricke@web.de>"],

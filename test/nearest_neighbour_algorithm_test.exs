@@ -11,6 +11,6 @@ defmodule NearestNeighbourAlgorithmTest do
   ]
 
   test "returns list of the shortest way" do
-    assert NearestNeighbourAlgorithm.shortest_way(@map) == [:a, :c, :e, :d, :b, :a]
+    assert NearestNeighbourAlgorithm.shortest_route(@map) == [:a, :c, :e, :d, :b, :a]
   end
 end
