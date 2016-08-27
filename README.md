@@ -1,4 +1,4 @@
-# NearestNeighbourAlgorithm
+# NearestNeighbourAlgorithm [![Build Status](https://travis-ci.org/HenrikFricke/elixir-nearest-neighbour-algorithm.svg?branch=master)](https://travis-ci.org/HenrikFricke/elixir-nearest-neighbour-algorithm)
 
 [Nearest neighbour algorithm](https://en.wikipedia.org/wiki/Nearest_neighbour_algorithm)
 written in Elixir.
