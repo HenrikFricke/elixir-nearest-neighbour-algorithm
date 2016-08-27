@@ -10,7 +10,7 @@ written in Elixir.
 
   ```elixir
   def deps do
-    [{:nearest_neighbour_algorithm, "~> 0.1.0"}]
+    [{:nearest_neighbour_algorithm, "~> 1.0.2"}]
   end
   ```
 
