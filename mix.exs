@@ -8,7 +8,7 @@ defmodule NearestNeighbourAlgorithm.Mixfile do
      package: package,
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
-     deps: []]
+     deps: deps]
   end
 
   # Configuration for the OTP application
@@ -18,6 +18,12 @@ defmodule NearestNeighbourAlgorithm.Mixfile do
     [applications: [:logger]]
   end
 
+  defp deps do
+    [
+      {:ex_doc, "~> 0.11", only: :dev}
+    ]
+  end
+  
   defp package do
     [
       maintainers: ["Henrik Fricke <henrikfricke@web.de>"],
