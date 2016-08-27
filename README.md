@@ -1,11 +1,10 @@
-# Nearest neighbour algorithm [![Build Status](https://travis-ci.org/HenrikFricke/elixir-nearest-neighbour-algorithm.svg?branch=master)](https://travis-ci.org/HenrikFricke/elixir-nearest-neighbour-algorithm)
+# Nearest neighbour algorithm
+[![Build Status](https://travis-ci.org/HenrikFricke/elixir-nearest-neighbour-algorithm.svg?branch=master)](https://travis-ci.org/HenrikFricke/elixir-nearest-neighbour-algorithm)
 
->[Nearest neighbour algorithm](https://en.wikipedia.org/wiki/Nearest_neighbour_algorithm)
+> [Nearest neighbour algorithm](https://en.wikipedia.org/wiki/Nearest_neighbour_algorithm)
 written in Elixir.
 
 ## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed as:
 
 1. Add `nearest_neighbour_algorithm` to your list of dependencies in `mix.exs`:
 

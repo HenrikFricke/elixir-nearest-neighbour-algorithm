@@ -3,7 +3,7 @@ defmodule NearestNeighbourAlgorithm.Mixfile do
 
   def project do
     [app: :nearest_neighbour_algorithm,
-     version: "1.0.0",
+     version: "1.0.1",
      elixir: "~> 1.3",
      package: package,
      build_embedded: Mix.env == :prod,
