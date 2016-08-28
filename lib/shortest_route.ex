@@ -20,7 +20,7 @@ defmodule NearestNeighbourAlgorithm.ShortestRoute do
 
   defp nearest_neighbour(neighbours, route) do
     neighbours
-    |> Enum.filter(fn(x) -> elem(x, 1) !== 0.0 end)
+    |> Enum.filter(fn(x) -> elem(x, 1) !== 0.0 && elem(x, 1) !== 0 end)
     |> Enum.filter(fn(x) -> !Enum.member?(route, elem(x, 0)) end)
     |> List.keysort(1)
     |> List.first
