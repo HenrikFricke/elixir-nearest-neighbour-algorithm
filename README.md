@@ -1,5 +1,6 @@
 # Nearest neighbour algorithm
 [![Build Status](https://travis-ci.org/HenrikFricke/elixir-nearest-neighbour-algorithm.svg?branch=master)](https://travis-ci.org/HenrikFricke/elixir-nearest-neighbour-algorithm)
+[![Hex pm](http://img.shields.io/hexpm/v/nearest_neighbour_algorithm.svg?style=flat)](https://hex.pm/packages/nearest_neighbour_algorithm)
 [![Coverage Status](https://coveralls.io/repos/github/HenrikFricke/elixir-nearest-neighbour-algorithm/badge.svg?branch=master)](https://coveralls.io/github/HenrikFricke/elixir-nearest-neighbour-algorithm?branch=master)
 
 > [Nearest neighbour algorithm](https://en.wikipedia.org/wiki/Nearest_neighbour_algorithm)
