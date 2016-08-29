@@ -8,6 +8,8 @@ defmodule NearestNeighbourAlgorithm.Mixfile do
      package: package,
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
+     test_coverage: [tool: ExCoveralls],
+     preferred_cli_env: ["coveralls": :test, "coveralls.detail": :test, "coveralls.post": :test, "coveralls.html": :test],
      deps: deps,
      docs: docs]
   end
@@ -29,7 +31,8 @@ defmodule NearestNeighbourAlgorithm.Mixfile do
 
   defp deps do
     [
-      {:ex_doc, "~> 0.11", only: :dev}
+      {:ex_doc, "~> 0.11", only: :dev},
+      {:excoveralls, "~> 0.5", only: :test}
     ]
   end
 
