@@ -12,7 +12,7 @@ written in Elixir.
 
   ```elixir
   def deps do
-    [{:nearest_neighbour_algorithm, "~> 1.0.2"}]
+    [{:nearest_neighbour_algorithm, "~> 1.0.3"}]
   end
   ```
 
